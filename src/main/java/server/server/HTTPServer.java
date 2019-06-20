@@ -1,12 +1,14 @@
 package server.server;
 
+import server.bridge.ThreadInterface;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.concurrent.atomic.AtomicLong;
 import javax.naming.InsufficientResourcesException;
 
-abstract class HTTPServer {
+public abstract class HTTPServer {
 
     private int port;
     private ServerSocket serverSocket;

@@ -1,5 +1,8 @@
 package server.bridge.impl;
 
+import server.bridge.ThreadInterface;
+import server.threads.ClientThread;
+
 import java.net.Socket;
 import java.util.HashSet;
 import java.util.LinkedList;

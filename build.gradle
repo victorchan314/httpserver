@@ -9,7 +9,7 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 application {
-    mainClassName = 'server.Application'
+    mainClassName = 'server.application.Application'
 }
 
 dependencies {
